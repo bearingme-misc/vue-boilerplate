@@ -22,6 +22,24 @@ The template should help get you started developing with Vue 3 and TypeScript in
 
 8. **Git Commit Message Linter**: This linter ensures that your commit messages follow a consistent and clear format.
 
+## Hidden Files
+
+- **.git:** Git version control system metadata and configuration.
+- **node_modules:** Directory containing project dependencies installed using Node.js package manager.
+- **.eslintrc.cjs:** ESLint configuration file.
+- **tsconfig.json:** TypeScript configuration file.
+- **postcss.config.js:** PostCSS configuration file.
+- **vite.config.ts:** Vite configuration file.
+- **pnpm-lock.yaml:** pnpm (package manager) lockfile.
+- **.prettierrc:** Prettier configuration file.
+- **tsconfig.node.json:** TypeScript configuration for Node.js.
+- **index.html:** Project's HTML entry file.
+- **.lintstagedrc:** Configuration file for lint-staged.
+
+These are mostly configuration files for the tools and settings mentioned above. You can modify them to suit your needs. For example, you can add more ESLint rules to `.eslintrc.cjs`.
+
+To show hidden files in VS Code, press `Ctrl + Shift + P` and search for `Toggle Hidden Files`. You can also open them by using your terminal and running `ls -a` (Linux/Mac) or `dir /a` (Windows), then `code <filename>`.
+
 ## Usage
 
 These tools and settings have already been installed and configured for this project. To use them effectively, follow these guidelines:

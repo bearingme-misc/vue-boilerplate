@@ -1,5 +1,5 @@
 <template>
-  <div class="text-primary text-2xl">Hello from App</div>
+  <div class="text-2xl text-primary">Hello from App</div>
 </template>
 
 <script setup lang="ts"></script>

@@ -15,6 +15,7 @@
     "pnpm-lock.yaml": true,
     ".prettierrc": true,
     "tsconfig.node.json": true,
-    "index.html": true
+    "index.html": true,
+    ".lintstagedrc": true
   }
 }

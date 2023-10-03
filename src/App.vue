@@ -1,5 +1,5 @@
 <template>
-  <div class="text-2xl text-primary">Hello from App</div>
+  <RouterView />
 </template>
 
 <script setup lang="ts"></script>

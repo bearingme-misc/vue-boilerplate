@@ -26,7 +26,7 @@ module.exports = {
     parser: "@typescript-eslint/parser",
     sourceType: "module",
   },
-  plugins: ["@typescript-eslint", "vue"],
+  plugins: ["@typescript-eslint", "vue", "cypress"],
   rules: {
     "vue/multi-word-component-names": "off",
   },

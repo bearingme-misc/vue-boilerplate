@@ -16,6 +16,7 @@
     ".prettierrc": true,
     "tsconfig.node.json": true,
     "index.html": true,
-    ".lintstagedrc": true
+    ".lintstagedrc": true,
+    "bun.lockb": true
   }
 }
